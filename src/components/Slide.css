@@ -1,0 +1,15 @@
+
+.category-container {
+    align-items: center; /* Center items vertically in the flex container */
+  }
+  
+  .category-item {
+    font-size: 20px;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease; /* Add a smooth transition to the text-decoration property */
+  }
+  
+  .category-item:hover {
+    text-decoration: underline;
+  }
+  
